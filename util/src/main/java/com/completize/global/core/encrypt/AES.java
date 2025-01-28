@@ -1,7 +1,7 @@
 package com.completize.global.core.encrypt;
 
-import com.completize.global.core.data.encrypt.Decrypt;
-import com.completize.global.core.data.encrypt.Encrypt;
+import com.completize.global.core.Decrypt;
+import com.completize.global.core.Encrypt;
 
 import javax.crypto.*;
 import javax.crypto.spec.PBEKeySpec;
