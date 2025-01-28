@@ -1,3 +1,4 @@
 rootProject.name = 'global-core'
 include 'api'
+include 'util'
 
