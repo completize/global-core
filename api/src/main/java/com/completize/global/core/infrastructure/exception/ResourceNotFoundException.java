@@ -5,6 +5,13 @@ import org.springframework.http.HttpStatus;
 
 import java.io.Serial;
 
+/**
+ * An exception that is thrown when a resource is not found.
+ *
+ * @author wgs
+ * @version 1.0
+ * @since 1.0
+ */
 public class ResourceNotFoundException extends ResponseException {
 
     @Serial

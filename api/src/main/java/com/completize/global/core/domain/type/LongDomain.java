@@ -4,4 +4,12 @@ import com.completize.global.core.domain.Domain;
 
 import java.util.UUID;
 
-public interface LongDomain extends Domain<UUID> { }
+/**
+ * A domain for {@link Long} values.
+ *
+ * @author wgs
+ * @version 1.0
+ * @since 1.0
+ */
+public interface LongDomain extends Domain<UUID> {
+}

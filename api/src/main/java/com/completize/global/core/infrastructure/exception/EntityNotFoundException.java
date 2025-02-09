@@ -5,6 +5,13 @@ import org.springframework.http.HttpStatus;
 
 import java.io.Serial;
 
+/**
+ * Thrown when an entity is not found.
+ *
+ * @author wgs
+ * @version 1.0
+ * @since 1.0
+ */
 public class EntityNotFoundException extends ResponseException {
 
     @Serial

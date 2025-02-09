@@ -5,6 +5,16 @@ import org.springframework.http.HttpStatus;
 
 import java.io.Serial;
 
+/**
+ * Exception thrown when an attempt is made to create an entity that already exists.
+ * <p>
+ * This exception should be used to signal that a requested operation on an entity
+ * cannot be performed because it already exists in the system.
+ *
+ * @see ResponseException
+ * @see EntityNotFoundException
+ * @see ResourceNotFoundException
+ */
 public class EntityAlreadyExistsException extends ResponseException {
 
     @Serial

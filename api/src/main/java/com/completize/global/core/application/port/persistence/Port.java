@@ -1,3 +1,7 @@
 package com.completize.global.core.application.port.persistence;
 
-public interface Port { }
+/**
+ * The interface Port.
+ */
+public interface Port {
+}
